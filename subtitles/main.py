@@ -4,7 +4,7 @@ import logging
 from subliminal import download_best_subtitles, Video, region
 from babelfish import Language
 from common.data.postprocessing_status import postprocessing_status
-from extra_modules.common.entity.download_info import DownloadInfo
+from common.entity.download_info import DownloadInfo
     
 def fetch_subs(metadata):
     video = Video.fromname('The.Big.Bang.Theory.S05E18.HDTV.x264-LOL.mp4')
